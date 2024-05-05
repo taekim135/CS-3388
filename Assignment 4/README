@@ -1,0 +1,69 @@
+Name: Taegyun Kim
+Student #: 251255729
+CS 3388 
+Assignment 4
+----------------------------
+
+
+Contents:
+
+1. main.cpp -> main code file to run the assignment
+2. LoadBitmap.cpp -> cpp file given to read bmp files
+3. "LinksHouse" folder -> contains all the ply & bmp files needed for texture mesh and rendering
+4. README (this file)
+5. screenshot1.png
+6. screenshot2.png
+7. terminal.png
+-----------------------------
+
+
+Pre-requisites to run the program:
+
+• OpenGL
+• GLEW
+• GLM
+• LoadBitmap.cpp
+
+* Make sure all the files in "LinksHouse" folder & LoadBitmap.cpp are in the same directory level as the main.cpp file. Else, the program will fail to find the files. 
+----------------------------------------------------------
+
+To run the program:
+
+Assuming you have all the ply & bmp files in the same directory level as main.cpp:
+
+g++ main.cpp -GLEW -lGL  -lglfw -o main.out
+./main.out
+
+A window will open with an inside view of a house. On the terminal window, you will also see the outputs in "terminal.png" file.
+-------------------------------------------------------------
+
+
+terminal.png -> outputs on the terminal when the program runs, indicating that the bmp files have been read.
+screenshot1.png -> using the arrow keys on the keyboard, move the camera/view to the door and look into the house.
+screenshot2.png -> simply rotate using the arrow keys on the keyboard until you see a table with some fruit.
+-----------------------------------------------------------------------
+
+
+How the program works:
+
+• The readPLYFile method reads the ply files to collect vertices and triangle faces coordinates. It also collects the number of vertices and faces.
+
+• The collected data is then used in the TextureMesh class to start drawing for each furniture/object.
+
+• Any camera changes depending on the arrow keys. You can move around in first-person view.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
