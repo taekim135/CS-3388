@@ -1,11 +1,10 @@
 
-Contents:
+## Contents:
 
-1. main.cpp -> main code file to run the assignment
-2. LoadBitmap.cpp -> cpp file given to read bmp files
-3. "LinksHouse" folder -> contains all the ply & bmp files needed for texture mesh and rendering
-4. README
------------------------------
+### 1. main.cpp -> main code file to run the assignment
+### 2. LoadBitmap.cpp -> cpp file given to read bmp files
+### 3. "LinksHouse" folder -> contains all the ply & bmp files needed for texture mesh and rendering
+### 4. README
 
 
 Pre-requisites to run the program:
