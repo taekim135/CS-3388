@@ -1,5 +1,4 @@
 // Name: Taegyun Kim
-// Student#: 251255729
 // CS 3388 
 // Assignment 4
 
